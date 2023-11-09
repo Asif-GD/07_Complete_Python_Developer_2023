@@ -1,4 +1,4 @@
-# exploring integer datatype and basic arithmatic.
+# exploring integer and float datatype and basic arithmatic.
 
 # variable
 variable_1: int = 11
