@@ -24,9 +24,15 @@ print(f"variable_3 = {variable_3}")
 
 """
 expression vs. statement
-expression - any calculation that evaluates to a value
-statement - a line of code
+expression -> any calculation that evaluates to a value
+statement -> a line of code
 """
 # this line below is a statement.
 variable_4 = variable_1 + variable_2 + variable_3  #  the code after the assignment operator = is an expression.
 print(f"variable_4 = {variable_4}")
+
+# augmented assignment operator
+"""
+-> variable_4 = variable_4 + 1 is same as variable_4 += 1
+and this can be applied to -, *, / as well.
+"""
