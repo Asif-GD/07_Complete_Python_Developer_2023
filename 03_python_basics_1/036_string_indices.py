@@ -24,3 +24,6 @@ print(f"string_1[::-1]= {string_1[::-1]}")
 print(f"string_1[0:2:-1]= {string_1[0:2:-1]}")
 # however, the one below works. Why?
 print(f"string_1[:2:-1]= {string_1[:2:-1]}")
+
+# stop index is out of range, works too
+print(f"string_1[:12:]= {string_1[:12:]}")
